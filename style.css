@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Acme', sans-serif; 
+}
+
+section{
+    height:600px;
+}
+.header{
+    background-image: linear-gradient(pink,white);
+}
+ul{
+    height:60px;
+    list-style: none;
+    float: right;
+    
+    
+   
+}
+ul li{
+    display: inline-block;
+   
+}
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#222;
+    font-weight: bold;
+    font-size: 17px;
+   line-height: 60px;
+   padding-right:60px ;
+}
+
+.div-half{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding:20px;
+    clear:right;
+    margin-top:40px;
+
+   
+
+}
+.div-half h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top:10px;
+
+}
+.highlight{
+    color:red;
+}
+
+.div-half p{
+    color:#222;
+   margin-top:12px;
+   padding-bottom: 50px;
+  
+}
+ .btn{
+     text-decoration: none;
+    font-weight: bold;
+     padding:15px 40px;
+    border-radius:20px;
+    box-shadow: 5px 5px 10px #fff,-7px -7px 10px #bccccb;
+     
+    
+
+ }
+.first{
+
+    color:#ffffff;
+    background-image: linear-gradient(45deg,orange,red);
+}
+
+.div-half img{
+    width:100%;
+}
+/*-----------------about section----------*/
+.about{
+    background-image: linear-gradient(white,pink);
+}
+.second{
+    color:rgb(65, 4, 4);
+    background-image: linear-gradient(45deg,cyan,blue);
+}
+
+/*---------------------Latest work project---------*/
+.working-area{
+  background-image: linear-gradient(pink,white);
+  padding-top:100px;
+   
+}
+#h-align{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom:150px;
+    
+    
+   
+}
+.el-div{
+    width:25%;
+    float: left;
+    margin-left: 5%;
+    padding: 8px;
+    background: #fff;
+    box-shadow:5px 5px 15px gray,-5px -5px 20px gray;
+    border-radius: 10px;
+  
+}
+.el-div img{
+    width:100%;
+}
+.el-div h2{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+/*--------------skill-----------------------*/
+.skill{
+    background-image: linear-gradient(white,pink);
+
+}
+.skill h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(27, 3, 3);
+    text-align: center;
+    padding:80px 0;
+
+}
+.left-div{
+    width:25%;
+    float:left;
+    margin-left: 40px;
+}
+.left-div img{
+    width:100%;
+}
+
+.right-div{
+    width:60%;
+    float:left;
+    margin-left:30px;
+}
+
+.right-div h2{
+    color:maroon;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.skill-ex{
+    margin-left:150px;
+    width:30%;
+    float:left;
+    padding-bottom: 100px;
+}
+.skill-ex h4{
+    padding:10px 0;
+  
+}
+.skill-ex h3{
+    color:rgb(255, 71, 5);
+    text-align: center;
+    padding:10px 0;
+}
+
+#html{
+    height:10px;
+    width:300px;
+    background: rgb(236, 4, 4);
+    border-radius: 10px;
+}
+#css{
+    height:10px;
+    width:250px;
+    background: rgb(7, 127, 148);
+    border-radius: 10px;
+}
+#git{
+    height:10px;
+    width: 220px;
+    background: rgb(50, 236, 4);
+    border-radius: 10px;
+}
+#python{
+    height:10px;
+    width:300px;
+    background: rgb(35, 6, 196);
+    border-radius: 10px;
+}
+#java{
+    height:10px;
+    width:250px;
+    background: rgb(236, 4, 139);
+    border-radius: 10px;
+}
+#php{
+    height:10px;
+    width:220px;
+    background: rgb(4, 228, 236);
+    border-radius: 10px;
+}
+
+
+
+/*--------------------work Inquiry--------------*/
+.work-en{
+    height:300px;
+    background-image: linear-gradient(pink,white);
+    padding-top: 100px;
+}
+.work-en div{
+    background: url("image/Group_33094_1.png");
+    background-position:center;
+    height:220px;
+    width:60%;
+    margin:0 auto;
+    border-radius: 20px;
+    
+    
+
+    
+}
+.work-en div h2{
+    line-height: 220px;
+    margin-left: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    color:#fff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.third{
+    color:#ffffff;
+    font-weight: bold;
+    padding: 15px 25px;
+    background-image: linear-gradient(45deg,tomato,red,maroon);
+   margin-left:200px;
+    line-height: 220px;
+    box-shadow: 3px 3px 7px blue,-5px -4px 7px rgb(38, 38, 202);
+}
+/*---------------------footer--------------------*/
+
+footer{
+    text-align: center;
+    padding: 40px 0;
+    background-image: linear-gradient(white,pink);
+}
+footer h3{
+    text-transform: uppercase;
+    color:#444;
+    font-weight: 600;
+
+}
+footer h2{
+    padding: 30px 0;
+}
+footer a{
+    color:rgb(27, 2, 2);
+    text-decoration: none;
+   
+}
+
+.link img{
+    height:30px;
+    width:30px;
+  margin:0 15px;
+}
+
+.trying{
+    height:100px; width:100px;
+    border-radius: 50%;
+    border:2px solid black;
+    text-align: center;
+    line-height: 100px;
+   
+
+}
